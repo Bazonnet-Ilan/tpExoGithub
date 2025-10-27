@@ -436,3 +436,13 @@ a {
 .w3-auto {
     max-width: 100%}
 }
+.w3-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.w3-half {
+  float: left;
+  width: 49.99999%;
+}
